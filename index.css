@@ -1,0 +1,64 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: max-content;
+    padding: 1rem;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.calc-input {
+    padding: 0.2rem;
+    margin: 0;
+    background-color: white !important;
+}
+.resultado{
+    background-color: black;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    padding: 1rem;
+    color: white;
+}
+.btn-operador {
+    padding: 0.5rem;
+    margin: 0;
+    pointer-events: all;
+    cursor: pointer;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 7rem;
+    height: 7rem;
+    font-size: 7rem;
+    color: black;
+}
+section[name="controls"]
+{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+section[name="values"] {
+    display: flex;
+    flex-flow: column;
+    gap: 0.4rem;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <form action="" class="card">
+        <section name="values">
+            <input type="number" name="valorA" id="valorA" class="calc-input" placeholder="valor 1" autofocus>
+            <input type="number" name="valorB" id="valorB" class="calc-input" placeholder="valor 2">
+            <span name="resultado" id="resultado" class="resultado"></span>
+        </section>
+        <section name="controls">
+            <button type="button" class="btn-operador" data-operador="+">+</button>
+            <button type="button" class="btn-operador" data-operador="-">-</button>
+            <button type="button" class="btn-operador" data-operador="*">*</button>
+            <button type="button" class="btn-operador" data-operador="/">/</button>        
+        </section>
+    </form>
+    <script src="./index.js"></script>
+</body>
+</html>
